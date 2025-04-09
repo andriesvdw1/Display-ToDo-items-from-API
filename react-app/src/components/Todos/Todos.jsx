@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import TodoItem from '../TodoItem/TodoItem';
 function Todos() {
     const [todos, setTodos] = useState([]);
 
@@ -16,7 +15,7 @@ function Todos() {
     const todosTitles =  todos.map((item) => item.id +" "+ item.title)
     
     return <div>{todosTitles.map(title => (
-        <p>{title}</p>
+        <p key={title.id}>{title}</p>
     ))}</div>;
 }
 
