@@ -1,8 +1,12 @@
 import React from 'react'
 
 function Button() {
+  let handleTaskAdd = () =>{
+    
+  }
   return (
-    <input type='button' value='add task'/>
+
+    <input type='button' value='add task' onClick='handleTaskAdd'/>
   )
 }
 
