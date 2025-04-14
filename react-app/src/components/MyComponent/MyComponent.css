@@ -1,8 +1,11 @@
 .my-component{
     border-radius: 15px;
-    padding: 5px 20px 10px 20px;
-    background-color: darkseagreen;
     
+    background-color: darkseagreen;
+    width: max-content;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
     margin-bottom: 30px;
     scale:1.5;
 
